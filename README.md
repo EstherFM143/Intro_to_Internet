@@ -1,7 +1,7 @@
 # Intro_to_Internet
 The coursework for the programming course is to create a program that communicates with a server using TCP and UDP protocols. It consists of a compulsory basic part and optional additional parts.
 Connecting to the server: The server the implementation is talking to can be found at 195.148.20.105, port 10000.
-The basic part and additional parts are implemented according to coursework.txt
+The basic part and additional parts are implemented according to coursework.txt.
 Further instructions of the assignment can be seen in instruction.pdf
 
 Basic Part.
