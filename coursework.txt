@@ -1,0 +1,7 @@
+NAME: ESTHER FRANCIS MTITU
+STUDENT ID: 
+
+The program uses python programming language. All 3 features tried to be implemented.
+Basic part, and 2 features independently works according to me. All 3 features together has a minor error.
+
+To start my program, type python cint_trial.py 195.148.20.105 10000 "HELLO" in command prompt. the message part can be "HELLO ENC" or "HELLO MUL" or "HELLO PAR" or "HELLO ENC MUL PAR"
