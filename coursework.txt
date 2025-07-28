@@ -1,7 +1,24 @@
 NAME: ESTHER FRANCIS MTITU
-STUDENT ID: 
 
 The program uses python programming language. All 3 features tried to be implemented.
-Basic part, and 2 features independently works according to me. All 3 features together has a minor error.
+Basic part, and 2 features independently works. All 3 features together has a minor error.
 
 To start my program, type python cint_trial.py 195.148.20.105 10000 "HELLO" in command prompt. the message part can be "HELLO ENC" or "HELLO MUL" or "HELLO PAR" or "HELLO ENC MUL PAR"
+
+Aim is to create a program that communicates with a server using TCP and UDP protocols. It consists of a compulsory basic part and optional additional parts.
+Connecting to the server: The server the implementation is talking to can be found at 195.148.20.105, port 10000.
+Further instructions of the assignment can be seen in instruction.pdf
+
+Basic Part.
+The basic part of the coursework involves the following steps:
+TCP Communication: The program sends a message to the server using the TCP protocol.
+UDP Communication: The program parses the message received from the TCP communication to extract the UDP port and its own ID.
+Word List Handling: The program sends a message to the UDP port of the server and receives a list of words.
+Word Order Translation: The program translates the order of the words and sends the modified list back to the server.
+Repetition: This process is repeated until the server indicates that it has run out of messages.
+
+Additional Parts
+The additional parts of the coursework are optional and include the following features:
+Encryption: Messages are encrypted before being sent to the server.
+Parity: Messages include parity bits for error detection.
+Multipart Messages: Messages can be split into multiple parts and reassembled upon receipt.
